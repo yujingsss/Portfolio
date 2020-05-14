@@ -98,7 +98,7 @@ a:hover {
 #container {
     position: absolute;
     top: 30vh;
-    max-width: 100vw;
+    width: 90vw;
     display: flex;
     flex-wrap: wrap;
 }
