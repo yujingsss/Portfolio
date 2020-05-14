@@ -102,8 +102,9 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 }
-#container > div {
+#container > div{
     /* border: solid 10px red; */
+    width: 400px;
     margin: 10px;
     background-color: black;
 }
