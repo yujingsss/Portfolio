@@ -142,7 +142,7 @@ a:hover {
 .index-flex-cover {
     display: flex;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 85vw;
     position: relative;
     top: 5vh;
 }
