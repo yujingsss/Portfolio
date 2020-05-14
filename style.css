@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+  margin: 4em;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0,0,0,0.98);
+  color: white;
+}
+#contact {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
+}
+h1 { 
+    font-size: 28px;
+    letter-spacing: 0.1em;
+}
+h5 {
+    line-height: 1.3em;
+}
+#self:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+a:hover {
+    text-decoration: underline;
+}
+.externallink {
+    font-weight:500;
+    color: red;
+}
+.externallink:hover {
+    text-decoration: underline;
+}
+.navigation:hover {
+    text-decoration: underline;
+}
+/* navigation bar */
+.navbar {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .navigation {
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+.dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: rgba(0,0,0,0.98);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.index-dropdown-content {
+    position: inherit;
+    background-color: rgba(0,0,0,0.98);
+    z-index: 1;
+}
+.index-dropdown-content a {
+    float: none;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+.index-dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    position: absolute;
+    top: 30vh;
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+#container > div {
+    /* border: solid 10px red; */
+    margin: 10px;
+    background-color: black;
+}
+#container > div:hover {
+    filter: opacity(45%);
+}
+.caption {
+    color:rgba(255,255,255,0.8);
+    font-size:12px;
+    font-weight:300;
+    font-style: italic;
+}
+/* cover images */
+.flex-cover {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    position: absolute;
+    top: 30vh;
+}
+.flex-cover > div {
+    background-color:rgb(0, 0, 0);
+    width: 260px;
+    margin: 10px;
+    height: 260px;
+    text-align: center;
+    line-height: 75px;
+}
+.cover {
+    width: 260px;
+    height: 260px;
+}
+.cover:hover{
+    filter: opacity(45%);
+}
+.index-flex-cover {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    position: relative;
+    top: 5vh;
+}
+.index-flex-cover > div {
+    background-color: red;
+    color: white;
+    width: 200px;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    /* line-height: 75px; */
+}
+.index-cover {
+    width: 200px;
+    height: 200px;
+}
+.index-cover:hover{
+    filter: opacity(55%);
+}
+
+.return {
+    position: absolute;
+    left: 80vw;
+    top: 10vh;
+}
+.return > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 0px;
+    margin: 5px;
+}
+.return > a:hover {
+    text-decoration: underline;
+}
+.process-img {
+    width: 45vw;
+    height: auto;        
+    margin-bottom: 10px;
+}
+.youtube-video {
+    width: 45vw;
+    height: 390px;        
+    margin-bottom: 10px;
+}
+.description {
+    text-align: justify;
+    width: 45vw;
+    font-weight: 50vh;
+    font-weight: 300;
+}
+iframe {
+    border: none;
+}
+.p5iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.box {
+    width: 600px;
+    height: 600px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.photo {
+    position: absolute;
+    top: 30vh;
+    max-width: 95vw;
+    align-content: flex-start;
+}
+.photo > img{
+    margin: 5px;
+    min-width: 300px;
+    max-width: 30vw;
+    vertical-align: text-top;
+}
