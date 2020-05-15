@@ -29,6 +29,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    cursor: crosshair;
 }
 .externallink {
     font-weight:500;
